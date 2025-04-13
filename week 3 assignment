@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML5 Elements Practice</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    table, th, td {
+      border: 1px solid #555;
+      border-collapse: collapse;
+      padding: 10px;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Section: Ordered List with Roman Numerals -->
+  <section>
+    <h2>My Weekly Priorities</h2>
+    <ol type="I">
+      <li>Study HTML & CSS</li>
+      <li>Practice Coding Challenges</li>
+      <li>Read a Book</li>
+      <li>Exercise Daily</li>
+    </ol>
+  </section>
+
+  <!-- Section: External Image from Pexels -->
+  <section>
+    <h2>Nature Image from Pexels</h2>
+    <img src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg" alt="Beautiful Mountain View from Pexels">
+  </section>
+
+  <!-- Section: Contact Table -->
+  <section>
+    <h2>Contact List</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Alice Johnson</td>
+          <td>12 Park Lane</td>
+          <td>08012345678</td>
+          <td>alice@mail.com</td>
+        </tr>
+        <tr>
+          <td>James Miller</td>
