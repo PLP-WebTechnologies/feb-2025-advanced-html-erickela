@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML5 Elements Practice</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    table, th, td {
+      border: 1px solid #333;
+      border-collapse: collapse;
+      padding: 8px;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    form {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Ordered List with Roman Numerals -->
+  <h2>My Favorite Activities</h2>
+  <ol type="I">
+    <li>Reading</li>
+    <li>Coding</li>
+    <li>Watching Documentaries</li>
+  </ol>
+
+  <!-- External Image from Pexels -->
+  <h2>Beautiful Nature</h2>
+  <img src="https://images.pexels.com/photos/34950/pexels-photo.jpg" alt="Nature" width="500">
+
+  <!-- Table of Contacts -->
+  <h2>Contact List</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Jane Doe</td>
+        <td>123 Main St</td>
+        <td>08012345678</td>
+        <td>jane@example.com</td>
+      </tr>
+      <tr>
+        <td>John Smith</td>
+        <td>456 Oak Ave</td>
+        <td>08098765432</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Emily Stone</td>
+        <td>789 Maple Rd</td>
+        <td>08087654321</td>
+        <td>emily@example.com</td>
+      </tr>
+      <tr>
+        <td>Mark Lee</td>
+        <td>321 Pine St</td>
+        <td>08065432109</td>
+        <td>mark@example.com</td>
+      </tr>
+      <tr>
+        <td>Alice Green</td>
+        <td>555 Cedar Blvd</td>
+        <td>08011223344</td>
+        <td>alice@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Registration Form -->
+  <h2>Registration Form</h2>
+  <form action="#" method="post">
+    <!-- Name Field -->
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+    <!-- Email Field -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+    <!-- Password Field -->
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" placeholder="Create a password" required minlength="6"><br><br>
+
+    <!-- Date Field -->
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <!-- Dropdown -->
+    <label for="country">Country:</label><br>
+    <select id="country" name="country" required>
+      <option value="">--Select Country--</option>
+      <option value="nigeria">Nigeria</option>
+      <option value="ghana">Ghana</option>
+      <option value="kenya">Kenya</option>
+      <option value="south_africa">South Africa</option>
+    </select><br><br>
+
+    <!-- Radio Buttons -->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <!-- Checkboxes -->
+    <label>Skills:</label><br>
+    <input type="checkbox" id="html" name="skills" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="checkbox" id="css" name="skills" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="checkbox" id="js" name="skills" value="JavaScript">
+    <label for="js">JavaScript</label><br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Register">
+  </form>
+
+  <!-- Multimedia Elements -->
+  <h2>Audio Sample</h2>
+  <audio controls>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h2>Video Sample</h2>
+  <video width="500" controls>
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+</body>
+</html>
